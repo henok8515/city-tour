@@ -1,0 +1,33 @@
+.nav-container {
+  margin: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background: rgb(3, 122, 161);
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+}
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 40%;
+  object-fit: cover;
+
+  background-image: "./Ethiopia.png";
+}
+/* .logo {
+  background-color: rgb(6, 110, 102);
+  height: 100px;
+  width: 100px;
+  border: dashed gray;
+  border-radius: 40px;
+} */
+@media only screen and (max-width: 600px) {
+  .nav-container {
+    display: flex;
+    font-size: 15px;
+  }
+}
