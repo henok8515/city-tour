@@ -16,14 +16,18 @@
   text-align: center;
   margin-top: 40px;
 }
+.city-name {
+  text-align: start;
+}
 .img {
   background-size: cover;
   height: 150px;
   width: auto;
-
+  border-radius: 0 10px;
   object-fit: cover;
 }
 p {
+  text-align: start;
   white-space: nowrap;
   width: auto;
   overflow: hidden;
@@ -44,6 +48,7 @@ p {
 }
 .load-more-button {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin: 20px 20px;
+  width: 30%;
 }

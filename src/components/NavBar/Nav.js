@@ -1,13 +1,24 @@
 import React from "react";
 import "./Nav.css";
-import {} from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 function Nav() {
   return (
     <div className="nav-container">
-      {/* <h2 className="logo"></h2> */}
-      <ul>home</ul>
-      <ul>about</ul>
-      <ul>sign in</ul>
+      <Router>
+        {/* <h2 className="logo"></h2> */}
+
+        <Link className="link" to="/">
+          Home
+        </Link>
+
+        <Link className="link" to="/about">
+          About
+        </Link>
+
+        <Link className="link" to="/dashboard">
+          Book
+        </Link>
+      </Router>
     </div>
   );
 }
