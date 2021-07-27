@@ -6,7 +6,7 @@ function Lalibela() {
     <div>
       <Router>
         <Switch>
-          <Route exact path="/Lalibela" />
+          <Route exact path="/Lalibela" component={Lalibela} />
           <h1> Welciome </h1>
         </Switch>
       </Router>

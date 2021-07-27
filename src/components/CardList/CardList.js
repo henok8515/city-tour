@@ -23,15 +23,12 @@ function CardList() {
               <img alt="" className="img" src={img} />
               <h1 className="city-name">{name}</h1>
               <p>{about}</p>{" "}
-              <Link to="/Lalibela" className="load-more-button">
+              <Link to="/" className="load-more-button">
                 See More
               </Link>
             </div>{" "}
           </div>
         ))}
-        <div>
-          <Route exact path="/Lalibela" component={Lalibela} />
-        </div>
       </Router>
     </div>
   );

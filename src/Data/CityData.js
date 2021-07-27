@@ -1,3 +1,4 @@
+import Lalibela from "../pages/Lalibela";
 export const CityData = [
   {
     name: "Gonder",
