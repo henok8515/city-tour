@@ -1,11 +1,17 @@
 import React from "react";
-import CardList from "../CardList/CardList";
+import { Link } from "react-router-dom";
 import "./Card.css";
 
-function Card() {
+function Card({ Data }) {
   return (
-    <div>
-      <CardList />
+    <div className="card-container">
+      {Data.map((Data, id) => (
+        <div className="card" key={id}>
+          <h1>{Data.title}</h1>
+          <p>{Data.place}</p>
+          <Link to={`/card/${Data.title}`}>View more</Link>
+        </div>
+      ))}
     </div>
   );
 }

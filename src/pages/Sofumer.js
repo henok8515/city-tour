@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Gonder() {
+function Sofumer() {
   return (
     <div>
-      Gondess Sofumer <Link to="/">go back</Link>;
+      <p>Sofuyer</p>
+      <Link to="/">go back</Link>;
     </div>
   );
 }
 
-export default Gonder;
+export default Sofumer;

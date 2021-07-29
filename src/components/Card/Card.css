@@ -1,4 +1,19 @@
 .card {
   margin-top: 40px;
-  background-color: black;
+  background-color: rgb(31, 160, 117);
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  color: rgb(243, 225, 225);
+  font-size: 1.2em;
+
+  flex-direction: column;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: space-around;
 }
