@@ -4,9 +4,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background: rgba(10, 209, 93, 0.911);
 
-  background: rgb(3, 122, 161);
-  color: black;
+  color: rgb(161, 162, 177);
   font-size: 25px;
   cursor: pointer;
 }
@@ -26,4 +28,9 @@
 }
 .link {
   text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.link:hover {
+  color: wheat;
+  font-size: 25px;
 }

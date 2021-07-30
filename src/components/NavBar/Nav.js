@@ -15,7 +15,7 @@ function Nav() {
         About
       </Link>
 
-      <Link className="link" to="/Gonder">
+      <Link className="link" to="/Register">
         Book
       </Link>
     </div>

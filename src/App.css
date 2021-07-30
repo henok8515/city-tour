@@ -6,9 +6,25 @@
 }
 .title {
   text-align: center;
-  font-size: 55px;
+  font-size: 75px;
   text-decoration: underline;
   letter-spacing: 10px;
+  background: #00ff00;
+  background: -webkit-linear-gradient(
+    to right,
+    #00ff00 21%,
+    #ffff00 52%,
+    #ff0000 67%
+  );
+  background: -moz-linear-gradient(
+    to right,
+    #00ff00 21%,
+    #ffff00 52%,
+    #ff0000 67%
+  );
+  background: linear-gradient(to right, #00ff00 21%, #ffff00 52%, #ff0000 67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @media only screen and (max-width: 600px) {
   .title {

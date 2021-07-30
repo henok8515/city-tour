@@ -5,13 +5,14 @@ import { Data } from "./Data/Data";
 import Nav from "./components/NavBar/Nav";
 
 import Places from "./pages/Places";
+import About from "./pages/About";
+import Register from "./pages/Register";
 
 function App() {
   return (
     <div className="app">
-      <h1 className="title">Vist Ethiopia</h1>
-
       <Router>
+        <h1 className="title">Vist Ethiopia</h1>
         <Nav />
         <Switch>
           <Route exact path="/">
@@ -21,8 +22,14 @@ function App() {
           <Route exact path="/card/:title">
             <Places Data={Data} />
           </Route>
+          <Route path="/About">
+            <About />
+          </Route>
+          <Route path="/Register">
+            <Register />
+          </Route>
         </Switch>
-      </Router>
+      </Router>{" "}
     </div>
   );
 }
