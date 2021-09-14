@@ -16,7 +16,7 @@ function Nav() {
       </Link>
 
       <Link className="link" to="/Register">
-        Book
+        sign out
       </Link>
     </div>
   );

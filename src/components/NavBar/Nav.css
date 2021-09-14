@@ -4,8 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: sticky;
-  top: 0;
+
   background: rgba(10, 209, 93, 0.911);
 
   color: rgb(161, 162, 177);
